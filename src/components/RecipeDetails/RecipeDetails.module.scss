@@ -1,0 +1,87 @@
+.details{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        // border-color: none;
+        background-color: white;
+        .favButton{
+          background-color: transparent;
+          font-size: 20px;
+          padding:5px;
+          color: red;
+          border: none;
+          transition: color 0.3s;
+          &:hover{
+color: green;
+          }
+        }
+    }
+   .content{
+    .image{
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        object-fit: cover;
+        border-radius: 4px;
+        padding: 10px 0 10px 0;
+    }
+    .receipeInfo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        // margin: 5px;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        padding: 10px 10px;
+      }
+      .tagveg {
+        // display: flex;
+        // flex-direction: column;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background: brown;
+        color: white;
+        width: fit-content;
+        margin: 5px;
+      }
+      .taglevel {
+        padding: 5px 10px;
+        border-radius: 5px;
+        background: green;
+        color: white;
+        margin: 5px;
+      }
+      .tagtime {
+        padding: 5px 10px;
+        border-radius: 5px;
+        background: rgb(3, 3, 119);
+        color: white;
+        margin: 5px;
+      }
+      .tags{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        gap: 5px;
+        margin-top: 5px;
+        .ingredients{
+          padding: 5px;
+          background-color: rgb(216, 213, 207);
+          border-radius: 5px;
+        }
+       
+      }
+      .instructions{
+       font-size: medium;
+       color: black;
+      }
+   }
+}

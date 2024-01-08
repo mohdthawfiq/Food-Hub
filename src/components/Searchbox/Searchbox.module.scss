@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right:10px ;
+  border: none;
+  outline: none;
+  input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 5px;
+  }
+  button{
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background-color: rgba(76, 172, 76, 0.973);
+    padding: 10px 20px ;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+cursor: pointer;
+  }
+}
